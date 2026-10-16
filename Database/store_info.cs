@@ -17,7 +17,7 @@ namespace RaceDAY_API.Database
             string role, string password)
         {//start of createUser
             try
-            {
+            {{//start of a try statement
                 using (SqlConnection con =
                     new SqlConnection(connection_string))
                 {
