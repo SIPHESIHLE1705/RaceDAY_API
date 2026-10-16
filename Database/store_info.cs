@@ -5,7 +5,7 @@ using System.Data.SqlClient;
 namespace RaceDAY_API.Database
 {//start of namespace
     public class store_info
-    {
+    {//start of class
         public string connection_string =
             @"Data source =(localdb)\api_both;database=RaceDay";
 
