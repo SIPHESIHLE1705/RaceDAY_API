@@ -875,5 +875,5 @@ namespace RaceDAY_API.Database
             catch (SqlException ex) { message = ex.Message; return "DATABASE_ERROR"; }
         }
 
-    }
+    }//end of class
 }
