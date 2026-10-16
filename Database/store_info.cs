@@ -34,7 +34,7 @@ namespace RaceDAY_API.Database
 
                         if (Convert.ToInt32(cmd.ExecuteScalar()) > 0)
                             return "EMAIL_EXISTS";
-                    }
+                    }/end of a using statement
 
                     string hashedPassword = BCrypt.Net.BCrypt.HashPassword(password);
 
