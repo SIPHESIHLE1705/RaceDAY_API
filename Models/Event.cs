@@ -1,7 +1,7 @@
 ﻿namespace RaceDAY_API.Models
-{
+{//start of namesapce
     public class Event
-    {
+    {//start of class
         public int eventID { get; set; }
         public string eventName { get; set; } = string.Empty;
         public string eventDescription { get; set; } = string.Empty;
@@ -10,5 +10,5 @@
         public DateTime eventDate { get; set; }
         public string eventType { get; set; } = string.Empty;
         public int organiserID { get; set; }
-    }
-}
+    }//end of class
+}//end of namespace 
