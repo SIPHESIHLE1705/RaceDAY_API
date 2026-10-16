@@ -60,7 +60,7 @@ namespace RaceDAY_API.Database
                             ? "SUCCESS" : "FAILED";
                     }
                 }
-            }
+            }//end of a try statement
             catch (SqlException ex)
             {
                 message = ex.Message;
