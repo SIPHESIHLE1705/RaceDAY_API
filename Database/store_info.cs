@@ -3,7 +3,7 @@ using System.Data;
 using System.Data.SqlClient;
 
 namespace RaceDAY_API.Database
-{
+{//start of namespace
     public class store_info
     {
         public string connection_string =
