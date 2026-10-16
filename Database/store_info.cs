@@ -66,7 +66,7 @@ namespace RaceDAY_API.Database
                 message = ex.Message;
                 return "DATABASE_ERROR";
             }//end of a catch 
-        }
+        }//end of createUser
 
         // GET USER BY EMAIL
         public User? getUserByEmail(string email)
