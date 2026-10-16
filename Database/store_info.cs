@@ -20,7 +20,7 @@ namespace RaceDAY_API.Database
             {{//start of a try statement
                 using (SqlConnection con =
                     new SqlConnection(connection_string))
-                {
+                {//start of a using statement
                     con.Open();
 
                     string check = @"SELECT COUNT(*)
