@@ -15,7 +15,7 @@ namespace RaceDAY_API.Database
         public string createUser(
             string fullname, string email,
             string role, string password)
-        {
+        {//start of createUser
             try
             {
                 using (SqlConnection con =
